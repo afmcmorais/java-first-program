@@ -6,13 +6,12 @@ package com.h2;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
         System.out.println( "Hello World!" );
     }
 
     public static int doubleTheNumber(int number) {
-        return 2 * -1;
+        return 2 * number;
     }
 
     private static int add(int[] numbers) {
