@@ -39,7 +39,7 @@ public class Finance {
                 SavingsCalculator.main(arguments);
                 return;
             case MORTGAGE_CALCULATOR:
-                System.out.println("Finding your monthly payments ...");
+                System.out.println("Finding your monthly payment ...");
                 MortgageCalculator.main(arguments);
                 return;
         }
